@@ -1,0 +1,78 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header-tabs .nav-link {
+    font-size: 1rem;
+}
+
+.card-header-tabs .nav-link h3 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.card-header-tabs .nav-link.disabled h3,
+.card-header-tabs .nav-link.disabled h4 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.card-header-tabs .nav-link.disabled .status {
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.card-body h5 {
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.card-body h4 {
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-left: 0.5rem;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.info-container > div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.info-container > div i {
+    color: #6c757d;
+}
+
+.card-body .col-lg-4 h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.card-body .price h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-body .btn-warning {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+}

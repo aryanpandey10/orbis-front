@@ -1,0 +1,12 @@
+.container {
+    margin-top: 0 !important;
+    padding: 10px !important;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 95% !important;
+}
+.navbar {
+    margin-bottom: 10px;
+    background-color: black;
+}
